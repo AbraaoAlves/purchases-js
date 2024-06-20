@@ -94,6 +94,7 @@ function getHeaders(
     "X-Platform": "web",
     "X-Version": VERSION,
     "X-Is-Sandbox": `${isSandboxApiKey(apiKey)}`,
+    // "X-RC-Canary": "eco-1120",
   };
   if (headers != null) {
     all_headers = { ...all_headers, ...headers };
